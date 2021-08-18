@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: linear-gradient(45deg, #b5f8f1, #cdfab3);
+}
+
+.container {
+  height: 90px;
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container input[type="text"] {
+  width: 50%;
+  padding: 2px 10px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+.container input[type="button"] {
+  font-size: 2rem;
+  border: none;
+  padding: 2px 10px;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+  background: #fff;
+  border-left: 1px solid #f0f0f0;
+}
+
+.container input[type="button"]:hover {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 0px 0px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 0px 0px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+}
+
+.container input[type="button"]:active {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.containerlist {
+  min-height: 150px;
+  width: 450px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  border-radius: 10px;
+}
+
+#todo-list {
+  width: 100%;
+  list-style: none;
+}
+
+.todo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.containerlist {
+  min-height: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.item-div {
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+.item-div li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.item-div button {
+  margin: 5px;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.item-div button:hover {
+  color: #919191;
+}
+/*# sourceMappingURL=styles.css.map */
